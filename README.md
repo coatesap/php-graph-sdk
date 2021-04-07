@@ -6,6 +6,10 @@
 
 This repository contains the open source PHP SDK that allows you to access the Facebook Platform from your PHP app.
 
+## NOTE: This repo is a fork that allows the package to be installed on PHP ^8.0
+The code should work just fine on PHP8, but for this package to be considered production-safe, the tests should really 
+be updated to use PHPUnit 9+ which supports PHP8.
+
 ## Installation
 
 The Facebook PHP SDK can be installed with [Composer](https://getcomposer.org/). Run this command:
